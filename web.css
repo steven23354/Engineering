@@ -1,0 +1,228 @@
+/*General styling*/
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7;
+    background-color: #d8e8ea;
+    
+
+ }
+ header{
+    background: #216f66;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    display:flex;
+
+ }
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav h1 {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:none;
+}
+  
+.home{
+    background: url('engineering-home.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: block;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+
+}
+.home h2{
+    font-size: 3em;
+    color: brown;
+}
+.home p{
+    margin-top: 10px;
+    color:black;
+    font-size: 1.2em;
+}
+.cta-button{
+    background:yellow;
+    color: #333;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+.about{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.about h2{
+    font-size: 3em;
+    color: brown;
+}
+.about p{
+    font-size: 1.2em;
+    color: black;
+    margin-top: 10px; 
+}
+.services{
+    padding:20px;
+    margin: 10px;
+}
+.services h2{
+    
+    color: brown;
+    font-size: 3em;
+    margin: 20px;
+
+}
+.box{
+    background: #ededed;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 60px;
+    box-shadow: #333;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    border-style: groove;
+    border-color: brown;
+    height: 40%;
+
+}
+.services h3{
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+#contact-form input,#contact-form textarea,#contact-form button{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid brown;
+    box-shadow: inset 10px brown;
+    border-radius: 40px;
+    border-color:brown;
+}
+#contact-form button{
+    padding: 20px;
+    background: green;
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    background: rgb(132, 131, 131);
+    color: white;
+    
+}
+img{
+    border-radius: 10px;
+    border-width: 20px;
+    align-items: flex-start;
+
+}
+/* Defining two different classes*/
+.about-box1{
+    border-radius: 30px;
+    background:rgb(80, 82, 29);
+    color: white;
+    height: 50px; 
+    padding: 20px;
+    margin: 20px;
+}
+.about-box2{
+    border-radius:30px;
+    background: rgb(184, 54, 75);
+    color:white;
+    height: 50px; 
+    padding:20px;
+    margin:20px;
+}
+.about-box3{
+    border-radius:30px;
+    background: rgb(126, 54, 184);
+    color:white;
+    height: 50px; 
+    padding:20px;
+    margin:20px;
+}
+.about-box4{
+    border-radius:30px;
+    background: rgb(54, 184, 110);
+    color:white;
+    height: 50px; 
+    padding:20px;
+    margin:20px;
+}
+.about-box5{
+    border-radius:30px;
+    background: rgb(8, 7, 7);
+    color:white;
+    height: 50px; 
+    padding:20px;
+    margin:20px;
+}
+.box6{
+    border-radius:30px;
+    background: rgb(217, 131, 11);
+    color:white;
+    height: 300px; 
+    padding:20px;
+    margin:70px;
+}
+.box7{
+    margin-top:30px;
+    border-radius:30px;
+    background: rgb(22, 138, 161);
+    color:white;
+    height: 300px; 
+    padding:20px;
+    margin:70px;
+
+}
+.box8{
+    
+    border-radius:30px;
+    background: rgba(76, 211, 13, 0.975);
+    color:white;
+    height: 300px; 
+    padding:20px;
+    margin:70px;
+}
+.servicesbox9{
+    border-radius: 30px;
+    background: #488c84;
+    color:white;
+    height: 300px;
+    padding:20px;
+
+ }body.box17{
+    background: fixed;
+    border: #0adec6;
+    background-color: #c5e2df;
+    border-radius: 10px;
+ }
+
+
