@@ -133,8 +133,8 @@ footer{
     text-align: center;
     padding: 10px;
     margin-top: 40px;
-    background: rgb(132, 131, 131);
-    color: white;
+    
+    color:black;
     
 }
 img{
@@ -170,7 +170,7 @@ img{
 }
 .about-box4{
     border-radius:30px;
-    background: rgb(54, 184, 110);
+    background: rgb(184, 136, 54);
     color:white;
     height: 50px; 
     padding:20px;
@@ -186,7 +186,7 @@ img{
 }
 .box6{
     border-radius:30px;
-    background: rgb(217, 131, 11);
+    background: rgb(69, 56, 37);
     color:white;
     height: 300px; 
     padding:20px;
@@ -205,7 +205,7 @@ img{
 .box8{
     
     border-radius:30px;
-    background: rgba(76, 211, 13, 0.975);
+    background: rgba(156, 105, 147, 0.975);
     color:white;
     height: 300px; 
     padding:20px;
